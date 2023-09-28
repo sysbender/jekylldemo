@@ -23,3 +23,31 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+
+## Example: nice looking table to compare code changes
+
+<table>
+<tr>
+<td> Before </td> <td> After </td>
+</tr>
+<tr>
+<td>
+
+```swift
+struct Hello {
+   public var test: String = "World" // original
+}
+```
+
+</td>
+<td>
+    
+```swift
+struct Hello {
+   public var test: String = "Universe" // changed
+}
+```
+</td>
+</tr>
+</table>
